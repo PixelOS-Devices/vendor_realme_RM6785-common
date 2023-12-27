@@ -10,6 +10,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RM6785-common/proprietary/odm/etc/audio/audio_device/audio_device.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_device/audio_device.xml \
     vendor/realme/RM6785-common/proprietary/odm/etc/audio/audio_device/common/audio_device.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_device/common/audio_device.xml \
     vendor/realme/RM6785-common/proprietary/odm/etc/audio/audio_param/AudioParamOptions.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/AudioParamOptions.xml \
+    vendor/realme/RM6785-common/proprietary/odm/etc/audio/audio_param/AudioParamOptions_vext.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/AudioParamOptions_vext.xml \
     vendor/realme/RM6785-common/proprietary/odm/etc/audio/audio_param/BtInfo_AudioParam.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/BtInfo_AudioParam.xml \
     vendor/realme/RM6785-common/proprietary/odm/etc/audio/audio_param/BtInfo_ParamUnitDesc.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/BtInfo_ParamUnitDesc.xml \
     vendor/realme/RM6785-common/proprietary/odm/etc/audio/audio_param/HpImpedance_AudioParam.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/HpImpedance_AudioParam.xml \
@@ -75,10 +76,10 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RM6785-common/proprietary/odm/etc/audio/audio_param/USBCall_ParamUnitDesc.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/USBCall_ParamUnitDesc.xml \
     vendor/realme/RM6785-common/proprietary/odm/etc/audio/audio_param/USBDevice_AudioParam.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/USBDevice_AudioParam.xml \
     vendor/realme/RM6785-common/proprietary/odm/etc/audio/audio_param/USBDevice_ParamUnitDesc.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/USBDevice_ParamUnitDesc.xml \
+    vendor/realme/RM6785-common/proprietary/odm/etc/audio/audio_param/Ultrasound_AudioParam.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/Ultrasound_AudioParam.xml \
+    vendor/realme/RM6785-common/proprietary/odm/etc/audio/audio_param/Ultrasound_ParamUnitDesc.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/Ultrasound_ParamUnitDesc.xml \
     vendor/realme/RM6785-common/proprietary/odm/etc/audio/audio_param/UplinkConfiguration_AudioParam.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/UplinkConfiguration_AudioParam.xml \
     vendor/realme/RM6785-common/proprietary/odm/etc/audio/audio_param/UplinkConfiguration_ParamUnitDesc.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/UplinkConfiguration_ParamUnitDesc.xml \
-    vendor/realme/RM6785-common/proprietary/odm/etc/audio/audio_param/VOW_AudioParam.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/VOW_AudioParam.xml \
-    vendor/realme/RM6785-common/proprietary/odm/etc/audio/audio_param/VOW_ParamUnitDesc.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/VOW_ParamUnitDesc.xml \
     vendor/realme/RM6785-common/proprietary/odm/etc/audio/audio_param/VoIPDMNR_AudioParam.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/VoIPDMNR_AudioParam.xml \
     vendor/realme/RM6785-common/proprietary/odm/etc/audio/audio_param/VoIPDMNR_ParamUnitDesc.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/VoIPDMNR_ParamUnitDesc.xml \
     vendor/realme/RM6785-common/proprietary/odm/etc/audio/audio_param/VoIPGeneral_AudioParam.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/VoIPGeneral_AudioParam.xml \
@@ -101,6 +102,16 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RM6785-common/proprietary/odm/etc/audio/audio_param/VoIPv2_AudioParam.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/VoIPv2_AudioParam.xml \
     vendor/realme/RM6785-common/proprietary/odm/etc/audio/audio_param/VoIPv2_ParamTreeView.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/VoIPv2_ParamTreeView.xml \
     vendor/realme/RM6785-common/proprietary/odm/etc/audio/audio_param/VoIPv2_ParamUnitDesc.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/VoIPv2_ParamUnitDesc.xml \
+    vendor/realme/RM6785-common/proprietary/odm/etc/audio/audio_param/VoWDspAec_AudioParam.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/VoWDspAec_AudioParam.xml \
+    vendor/realme/RM6785-common/proprietary/odm/etc/audio/audio_param/VoWDspAec_ParamUnitDesc.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/VoWDspAec_ParamUnitDesc.xml \
+    vendor/realme/RM6785-common/proprietary/odm/etc/audio/audio_param/VoWEngineFeature_AudioParam.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/VoWEngineFeature_AudioParam.xml \
+    vendor/realme/RM6785-common/proprietary/odm/etc/audio/audio_param/VoWEngineFeature_ParamUnitDesc.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/VoWEngineFeature_ParamUnitDesc.xml \
+    vendor/realme/RM6785-common/proprietary/odm/etc/audio/audio_param/VoWHwVad_AudioParam.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/VoWHwVad_AudioParam.xml \
+    vendor/realme/RM6785-common/proprietary/odm/etc/audio/audio_param/VoWHwVad_ParamUnitDesc.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/VoWHwVad_ParamUnitDesc.xml \
+    vendor/realme/RM6785-common/proprietary/odm/etc/audio/audio_param/VoWMicSetting_AudioParam.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/VoWMicSetting_AudioParam.xml \
+    vendor/realme/RM6785-common/proprietary/odm/etc/audio/audio_param/VoWMicSetting_ParamUnitDesc.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/VoWMicSetting_ParamUnitDesc.xml \
+    vendor/realme/RM6785-common/proprietary/odm/etc/audio/audio_param/VoWVoiceCommand_AudioParam.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/VoWVoiceCommand_AudioParam.xml \
+    vendor/realme/RM6785-common/proprietary/odm/etc/audio/audio_param/VoWVoiceCommand_ParamUnitDesc.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/VoWVoiceCommand_ParamUnitDesc.xml \
     vendor/realme/RM6785-common/proprietary/odm/etc/audio/audio_param/VolumeGainMapUL_AudioParam.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/VolumeGainMapUL_AudioParam.xml \
     vendor/realme/RM6785-common/proprietary/odm/etc/audio/audio_param/VolumeGainMapUL_ParamUnitDesc.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/VolumeGainMapUL_ParamUnitDesc.xml \
     vendor/realme/RM6785-common/proprietary/odm/etc/audio/audio_param/VolumeGainMap_AudioParam.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/VolumeGainMap_AudioParam.xml \
@@ -110,15 +121,10 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RM6785-common/proprietary/odm/etc/audio/aurisys_config/aurisys_config.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/aurisys_config/aurisys_config.xml \
     vendor/realme/RM6785-common/proprietary/odm/etc/audio/aurisys_config_hifi3/aurisys_config_hifi3.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/aurisys_config_hifi3/aurisys_config_hifi3.xml \
     vendor/realme/RM6785-common/proprietary/odm/etc/audio/awinic/AW_DSP.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/awinic/AW_DSP.bin \
-    vendor/realme/RM6785-common/proprietary/odm/etc/audio/file112.wav:$(TARGET_COPY_OUT_ODM)/etc/audio/file112.wav \
     vendor/realme/RM6785-common/proprietary/odm/etc/audio/oplus_audio_features.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/oplus_audio_features.xml \
-    vendor/realme/RM6785-common/proprietary/odm/etc/audio/sixth/sixth_param.txt:$(TARGET_COPY_OUT_ODM)/etc/audio/sixth/sixth_param.txt \
-    vendor/realme/RM6785-common/proprietary/odm/etc/audio/sixth/sixth_param_app3.txt:$(TARGET_COPY_OUT_ODM)/etc/audio/sixth/sixth_param_app3.txt \
-    vendor/realme/RM6785-common/proprietary/odm/etc/audio/sixth/sixth_param_phonecall.txt:$(TARGET_COPY_OUT_ODM)/etc/audio/sixth/sixth_param_phonecall.txt \
-    vendor/realme/RM6785-common/proprietary/odm/etc/audio/sixth/sixth_param_voip.txt:$(TARGET_COPY_OUT_ODM)/etc/audio/sixth/sixth_param_voip.txt \
-    vendor/realme/RM6785-common/proprietary/odm/etc/audio/spk.wav:$(TARGET_COPY_OUT_ODM)/etc/audio/spk.wav \
     vendor/realme/RM6785-common/proprietary/odm/etc/audio/test_path/common/mixer_paths.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/test_path/common/mixer_paths.xml \
     vendor/realme/RM6785-common/proprietary/odm/etc/audio/test_path/mixer_paths.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/test_path/mixer_paths.xml \
+    vendor/realme/RM6785-common/proprietary/odm/etc/audio_effects.xml:$(TARGET_COPY_OUT_ODM)/etc/audio_effects.xml \
     vendor/realme/RM6785-common/proprietary/odm/etc/init/init.pn8x.nfc.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.pn8x.nfc.rc \
     vendor/realme/RM6785-common/proprietary/odm/etc/init/init.pn8x.se.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.pn8x.se.rc \
     vendor/realme/RM6785-common/proprietary/odm/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc \
@@ -134,6 +140,8 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RM6785-common/proprietary/odm/firmware/aw87359/aw87359_drcv.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw87359/aw87359_drcv.bin \
     vendor/realme/RM6785-common/proprietary/odm/firmware/aw87359/aw87359_dspk.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw87359/aw87359_dspk.bin \
     vendor/realme/RM6785-common/proprietary/odm/firmware/aw87359/aw87359_dspk_ftm.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw87359/aw87359_dspk_ftm.bin \
+    vendor/realme/RM6785-common/proprietary/odm/firmware/awinic_haptic_gun_params.bin:$(TARGET_COPY_OUT_ODM)/firmware/awinic_haptic_gun_params.bin \
+    vendor/realme/RM6785-common/proprietary/odm/firmware/awinic_haptic_params.bin:$(TARGET_COPY_OUT_ODM)/firmware/awinic_haptic_params.bin \
     vendor/realme/RM6785-common/proprietary/odm/firmware/fastchg/19661/oplus_vooc_fw.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/19661/oplus_vooc_fw.bin \
     vendor/realme/RM6785-common/proprietary/odm/firmware/fastchg/20682/oplus_vooc_fw.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/20682/oplus_vooc_fw.bin \
     vendor/realme/RM6785-common/proprietary/odm/firmware/tp/19661/FW_NT36672C_NF_JDI.bin:$(TARGET_COPY_OUT_ODM)/firmware/tp/19661/FW_NT36672C_NF_JDI.bin \
@@ -218,111 +226,8 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RM6785-common/proprietary/vendor/etc/apdb/APDB_MT6785_S01__W2044:$(TARGET_COPY_OUT_VENDOR)/etc/apdb/APDB_MT6785_S01__W2044 \
     vendor/realme/RM6785-common/proprietary/vendor/etc/apdb/APDB_MT6785_S01__W2044_ENUM:$(TARGET_COPY_OUT_VENDOR)/etc/apdb/APDB_MT6785_S01__W2044_ENUM \
     vendor/realme/RM6785-common/proprietary/vendor/etc/armnn_app.config:$(TARGET_COPY_OUT_VENDOR)/etc/armnn_app.config \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_device.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_device.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_em.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_em.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/AudioParamOptions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/AudioParamOptions.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/BtInfo_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/BtInfo_AudioParam.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/BtInfo_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/BtInfo_ParamUnitDesc.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/HpImpedance_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/HpImpedance_AudioParam.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/HpImpedance_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/HpImpedance_ParamUnitDesc.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/MicInfo_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/MicInfo_AudioParam.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/MicInfo_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/MicInfo_ParamUnitDesc.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/PlaybackACF_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackACF_AudioParam.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/PlaybackACF_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackACF_ParamUnitDesc.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/PlaybackDRC_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackDRC_AudioParam.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/PlaybackDRC_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackDRC_ParamUnitDesc.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/PlaybackHCF_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackHCF_AudioParam.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/PlaybackHCF_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackHCF_ParamUnitDesc.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/PlaybackVolAna_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackVolAna_AudioParam.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/PlaybackVolAna_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackVolAna_ParamUnitDesc.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/PlaybackVolDigi_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackVolDigi_AudioParam.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/PlaybackVolDigi_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackVolDigi_ParamUnitDesc.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/PlaybackVolUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackVolUI_AudioParam.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/PlaybackVolUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackVolUI_ParamUnitDesc.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/Playback_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Playback_AudioParam.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/Playback_ParamTreeView.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Playback_ParamTreeView.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/Playback_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Playback_ParamUnitDesc.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/RecordDMNR_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordDMNR_AudioParam.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/RecordDMNR_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordDMNR_ParamUnitDesc.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/RecordFIR_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordFIR_AudioParam.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/RecordFIR_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordFIR_ParamUnitDesc.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/RecordUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordUI_AudioParam.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/RecordUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordUI_ParamUnitDesc.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/RecordVolUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordVolUI_AudioParam.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/RecordVolUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordVolUI_ParamUnitDesc.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/RecordVol_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordVol_AudioParam.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/RecordVol_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordVol_ParamUnitDesc.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/Record_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Record_AudioParam.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/Record_ParamTreeView.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Record_ParamTreeView.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/Record_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Record_ParamUnitDesc.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/RingbackVolUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RingbackVolUI_AudioParam.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/RingbackVolUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RingbackVolUI_ParamUnitDesc.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/RingbackVol_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RingbackVol_AudioParam.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/RingbackVol_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RingbackVol_ParamUnitDesc.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/SoundEnhancement_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SoundEnhancement_AudioParam.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/SoundEnhancement_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SoundEnhancement_ParamUnitDesc.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/SpeechDMNR_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechDMNR_AudioParam.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/SpeechDMNR_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechDMNR_ParamUnitDesc.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/SpeechEchoRef_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechEchoRef_AudioParam.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/SpeechEchoRef_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechEchoRef_ParamUnitDesc.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/SpeechGeneral_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechGeneral_AudioParam.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/SpeechGeneral_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechGeneral_ParamUnitDesc.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/SpeechMagiClarity_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechMagiClarity_AudioParam.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/SpeechMagiClarity_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechMagiClarity_ParamUnitDesc.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/SpeechNetwork_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechNetwork_AudioParam.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/SpeechNetwork_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechNetwork_ParamUnitDesc.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/SpeechUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechUI_AudioParam.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/SpeechUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechUI_ParamUnitDesc.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/SpeechVolUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechVolUI_AudioParam.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/SpeechVolUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechVolUI_ParamUnitDesc.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/SpeechVol_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechVol_AudioParam.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/SpeechVol_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechVol_ParamUnitDesc.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/Speech_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Speech_AudioParam.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/Speech_ParamTreeView.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Speech_ParamTreeView.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/Speech_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Speech_ParamUnitDesc.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/USBCall_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/USBCall_AudioParam.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/USBCall_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/USBCall_ParamUnitDesc.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/USBDevice_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/USBDevice_AudioParam.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/USBDevice_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/USBDevice_ParamUnitDesc.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/UplinkConfiguration_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/UplinkConfiguration_AudioParam.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/UplinkConfiguration_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/UplinkConfiguration_ParamUnitDesc.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/VoIPDMNR_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPDMNR_AudioParam.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/VoIPDMNR_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPDMNR_ParamUnitDesc.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/VoIPGeneral_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPGeneral_AudioParam.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/VoIPGeneral_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPGeneral_ParamUnitDesc.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/VoIPUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPUI_AudioParam.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/VoIPUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPUI_ParamUnitDesc.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/VoIPVolUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPVolUI_AudioParam.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/VoIPVolUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPVolUI_ParamUnitDesc.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/VoIPVol_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPVol_AudioParam.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/VoIPVol_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPVol_ParamUnitDesc.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/VoIP_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIP_AudioParam.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/VoIP_ParamTreeView.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIP_ParamTreeView.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/VoIP_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIP_ParamUnitDesc.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/VoIPv2DMNR_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPv2DMNR_AudioParam.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/VoIPv2DMNR_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPv2DMNR_ParamUnitDesc.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/VoIPv2General_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPv2General_AudioParam.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/VoIPv2General_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPv2General_ParamUnitDesc.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/VoIPv2UI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPv2UI_AudioParam.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/VoIPv2UI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPv2UI_ParamUnitDesc.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/VoIPv2_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPv2_AudioParam.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/VoIPv2_ParamTreeView.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPv2_ParamTreeView.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/VoIPv2_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPv2_ParamUnitDesc.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/VoWDspAec_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoWDspAec_AudioParam.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/VoWDspAec_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoWDspAec_ParamUnitDesc.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/VoWHwVad_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoWHwVad_AudioParam.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/VoWHwVad_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoWHwVad_ParamUnitDesc.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/VolumeGainMapUL_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VolumeGainMapUL_AudioParam.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/VolumeGainMapUL_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VolumeGainMapUL_ParamUnitDesc.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/VolumeGainMap_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VolumeGainMap_AudioParam.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/VolumeGainMap_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VolumeGainMap_ParamUnitDesc.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/Volume_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Volume_AudioParam.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_param/Volume_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Volume_ParamUnitDesc.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_policy.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy.conf \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/audio_policy_volumes.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_volumes.xml \
     vendor/realme/RM6785-common/proprietary/vendor/etc/aurisys_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/aurisys_config.xml \
     vendor/realme/RM6785-common/proprietary/vendor/etc/aurisys_config_hifi3.xml:$(TARGET_COPY_OUT_VENDOR)/etc/aurisys_config_hifi3.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/aurisys_param/Speech_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/aurisys_param/Speech_AudioParam.xml \
     vendor/realme/RM6785-common/proprietary/vendor/etc/camera/Arc_wdc_calib.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/Arc_wdc_calib.bin \
     vendor/realme/RM6785-common/proprietary/vendor/etc/camera/M_Attribute_AG_BMW_1.1.0.model:$(TARGET_COPY_OUT_VENDOR)/etc/camera/M_Attribute_AG_BMW_1.1.0.model \
     vendor/realme/RM6785-common/proprietary/vendor/etc/camera/M_Attribute_Gender_Age_1.0.model:$(TARGET_COPY_OUT_VENDOR)/etc/camera/M_Attribute_Gender_Age_1.0.model \
@@ -488,7 +393,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RM6785-common/proprietary/vendor/etc/ecc_list_OP20.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP20.xml \
     vendor/realme/RM6785-common/proprietary/vendor/etc/ecc_list_preference.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_preference.xml \
     vendor/realme/RM6785-common/proprietary/vendor/etc/factory.ini:$(TARGET_COPY_OUT_VENDOR)/etc/factory.ini \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/file112.wav:$(TARGET_COPY_OUT_VENDOR)/etc/file112.wav \
     vendor/realme/RM6785-common/proprietary/vendor/etc/gnss/agps_profiles_conf2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/agps_profiles_conf2.xml \
     vendor/realme/RM6785-common/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_ATnT_Mexico.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_ATnT_Mexico.xml \
     vendor/realme/RM6785-common/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_ATnT_US.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_ATnT_US.xml \
@@ -515,6 +419,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RM6785-common/proprietary/vendor/etc/init/android.hardware.sensors@2.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.sensors@2.0-service-mediatek.rc \
     vendor/realme/RM6785-common/proprietary/vendor/etc/init/android.hardware.usb@1.1-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb@1.1-service-mediatek.rc \
     vendor/realme/RM6785-common/proprietary/vendor/etc/init/android.hardware.wifi.supplicant-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.wifi.supplicant-service.rc \
+    vendor/realme/RM6785-common/proprietary/vendor/etc/init/atci_service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/atci_service.rc \
     vendor/realme/RM6785-common/proprietary/vendor/etc/init/atcid.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/atcid.rc \
     vendor/realme/RM6785-common/proprietary/vendor/etc/init/audiocmdservice_atci.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/audiocmdservice_atci.rc \
     vendor/realme/RM6785-common/proprietary/vendor/etc/init/bootperf.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/bootperf.rc \
@@ -764,9 +669,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RM6785-common/proprietary/vendor/etc/slp_conf:$(TARGET_COPY_OUT_VENDOR)/etc/slp_conf \
     vendor/realme/RM6785-common/proprietary/vendor/etc/smsdbvisitor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/smsdbvisitor.xml \
     vendor/realme/RM6785-common/proprietary/vendor/etc/special_pws_channel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/special_pws_channel.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/spk.wav:$(TARGET_COPY_OUT_VENDOR)/etc/spk.wav \
     vendor/realme/RM6785-common/proprietary/vendor/etc/spn-conf-op09.xml:$(TARGET_COPY_OUT_VENDOR)/etc/spn-conf-op09.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/test_path/common/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/test_path/common/mixer_paths.xml \
     vendor/realme/RM6785-common/proprietary/vendor/etc/virtual-spn-conf-by-efgid1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-efgid1.xml \
     vendor/realme/RM6785-common/proprietary/vendor/etc/virtual-spn-conf-by-efpnn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-efpnn.xml \
     vendor/realme/RM6785-common/proprietary/vendor/etc/virtual-spn-conf-by-efspn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-efspn.xml \
@@ -805,16 +708,39 @@ PRODUCT_PACKAGES += \
     libGLES_mali \
     libGLES_meow \
     libMEOW_trace \
+    android.hardware.audio@6.0-impl-mediatek \
+    android.hardware.audio@7.0-impl-mediatek \
     android.hardware.graphics.allocator@4.0-impl-mediatek \
     android.hardware.graphics.mapper@4.0-impl-mediatek \
+    audio.primary.mt6785 \
+    audio.r_submix.mt6785 \
     gps.default \
     vendor.mediatek.hardware.keyinstall@1.0-impl \
     vendor.mediatek.hardware.mms@1.5-impl \
     vendor.mediatek.hardware.nvram@1.1-impl \
     vendor.mediatek.hardware.pq@2.6-impl \
+    libMtkSpeechEnh \
     libOpenCL \
     libTEECommon \
+    lib_iir \
+    lib_speech_enh \
     libaedv \
+    libakm \
+    libaudio_engineer_test \
+    libaudio_param_parser-vnd \
+    libaudiocompensationfilter_vendor \
+    libaudiocompensationfilterc \
+    libaudiocomponentengine_vendor \
+    libaudiocomponentenginec \
+    libaudiocustparam_vendor \
+    libaudiodcrflt_vendor \
+    libaudiofmtconv \
+    libaudioloudc \
+    libaudioprimarydevicehalifclient \
+    libaudiotoolkit_vendor \
+    libaurisysdemo \
+    libbessound_hd_mtk_vendor \
+    libblisrc32_vendor \
     libbwc \
     libcapctrl \
     libcares_naptr \
@@ -840,6 +766,14 @@ PRODUCT_PACKAGES += \
     libion_mtk \
     libion_ulit \
     libipsec_ims_shr \
+    libktvdrc \
+    libktveffect \
+    libktveffect_rec \
+    libktveq \
+    libktvns \
+    libktvreverb \
+    libktvsoundtouch \
+    libktvvolume \
     libladder \
     libmtcloader \
     libmtk_drvb \
@@ -849,25 +783,38 @@ PRODUCT_PACKAGES += \
     libmtknetutils \
     libmtkproperty \
     libmtkrillog \
+    libmtkshifter_vendor \
     libmtksysutils \
     libnvram \
     libnvram_daemon_callback \
     libnvram_platform \
     libnvram_sec \
+    liboplus_audio_config \
     libpixelflinger \
     libpq_cust_base \
     libpq_prot \
     librgbwlightsensor \
+    librt_extamp_intf \
     libscltm \
     libsimaka \
+    libspeech_enh_lib \
+    libspeechparser_vendor \
     libssl-md \
     libssl-ss \
     libstrongswan \
     libsysenv \
     liburee_meta_drmkeyinstall \
     libverno \
+    libvow_ap_test_aa \
+    libvow_ap_test_dd \
+    libvow_ap_test_ha \
+    libvow_ap_test_hh \
+    libvow_ap_test_nn \
     libvpu \
     libwo \
+    libaudiopreprocessing_mtk \
+    vendor.mediatek.hardware.audio@6.1 \
+    vendor.mediatek.hardware.audio@7.1 \
     vendor.mediatek.hardware.bluetooth.audio@2.1 \
     vendor.mediatek.hardware.gpu@1.0 \
     vendor.mediatek.hardware.keyinstall@1.0 \
@@ -889,10 +836,6 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.pq@2.6 \
     AVCSecureVdecCA \
     VP9SecureVdecCA \
-    audio.primary.mt6785 \
-    audio.r_submix.mt6785 \
-    audio.usb.mt6785 \
-    sound_trigger.primary.mt6785 \
     vendor.mediatek.hardware.mtkcodecservice@1.1-impl \
     libDR \
     libHEVCdec_sa.ca7.android \
@@ -905,26 +848,7 @@ PRODUCT_PACKAGES += \
     libMtkOmxVdecEx \
     libMtkOmxVenc \
     libMtkOmxWmaDec \
-    libMtkSpeechEnh \
-    lib_iir \
-    lib_speech_enh \
-    libalsautils-v30 \
-    libaudio_engineer_test \
-    libaudio_param_parser-vnd \
-    libaudiocompensationfilter_vendor \
-    libaudiocompensationfilterc \
-    libaudiocomponentengine_vendor \
-    libaudiocomponentenginec \
-    libaudiocustparam_vendor \
-    libaudiodcrflt_vendor \
-    libaudiofmtconv \
-    libaudioloudc \
-    libaudioprimarydevicehalifclient \
-    libaudiotoolkit_vendor \
-    libaurisysdemo \
-    libbessound_hd_mtk_vendor \
-    libblisrc32_vendor \
-    libcvsd_mtk \
+    libadpcmdec_mtk \
     libfgauge_gm30 \
     libh264dec_customize \
     libh264dec_sa.ca7 \
@@ -932,24 +856,9 @@ PRODUCT_PACKAGES += \
     libh264dec_se.ca7 \
     libh264enc_sa.ca7 \
     libhevce_sb.ca7.android \
-    libktvdrc \
-    libktveffect \
-    libktveffect_rec \
-    libktveq \
-    libktvns \
-    libktvreverb \
-    libktvsoundtouch \
-    libktvvolume \
     libmnl \
     libmp4enc_sa.ca7 \
     libmp4enc_xa.ca7 \
-    libmsbc_mtk \
-    libmtklimiter_vendor \
-    libmtkshifter_vendor \
-    liboplus_audio_config \
-    libsi_sixth \
-    libspeech_enh_lib \
-    libspeechparser_vendor \
     libstagefrighthw \
     libstorage_otp \
     libthermalalgo \
@@ -961,11 +870,6 @@ PRODUCT_PACKAGES += \
     libvcodecdrv \
     libvolte_core_shr \
     libvolte_xdmc_shr \
-    libvow_ap_testing_alexa.vendor \
-    libvowp23_sid_testing_alexa.vendor \
-    libvowp23_sid_training_alexa.vendor \
-    libvowp25testing_alexa.vendor \
-    libvowp2training_alexa.vendor \
     libvp8dec_sa.ca7 \
     libvp8enc_sa.ca7 \
     libvp9dec_sa.ca7 \
@@ -973,7 +877,6 @@ PRODUCT_PACKAGES += \
     libvt_custom \
     libwvhidl \
     libwvdrmengine \
-    vendor.mediatek.hardware.audio@6.1 \
     vendor.mediatek.hardware.mtkcodecservice@1.1 \
     APUWareUtilsServer \
     APUWareXrpServer \
@@ -1392,7 +1295,6 @@ PRODUCT_PACKAGES += \
     libaal_key \
     libaal_mtk \
     libaalservice \
-    libakm \
     libapusys \
     libarcsoft_distortion_correction \
     libarcsoft_dualcam_bokeh_api \
@@ -1658,7 +1560,10 @@ PRODUCT_PACKAGES += \
     libvt_avsync \
     vendor.mediatek.hardware.videotelephony-V1-ndk \
     vendor.mediatek.hardware.videotelephony@1.0.system_ext \
+    libawinicsmartpaparse \
     liboemcrypto \
+    awinic.haptic.effect \
+    libhaptic_effect \
     libormshalclient \
     libpnscr2 \
     sensors.virtual \
@@ -1688,6 +1593,7 @@ PRODUCT_PACKAGES += \
     oplus_appradio_device_manifest \
     oplus_radio_device_manifest \
     vendor.mediatek.hardware.dplanner@2.0-service \
+    atci_service \
     atcid \
     audiocmdservice_atci \
     autobt \
@@ -1737,12 +1643,14 @@ PRODUCT_PACKAGES += \
     md_monitor \
     md_monitor_ctrl \
     mnld \
+    mt6660_calibration \
     mtk_agpsd \
     muxreport \
     netdagent \
     netdc \
     nvram_daemon \
     ppl_agent \
+    rt5512_calibration \
     starter \
     stp_dump3 \
     stroke \

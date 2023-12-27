@@ -216,7 +216,7 @@
         <library name="mtk_speech_enh"
                  lib_path="/vendor/lib/lib_speech_enh.so"
                  lib64_path="/vendor/lib64/lib_speech_enh.so"
-                 param_path="/vendor/etc/aurisys_param/Speech_AudioParam.xml"
+                 param_path="/odm/etc/audio/audio_param/Speech_AudioParam.xml"
                  lib_dump_path="AUTO"
                  adb_cmd_key="MTKSE">
             <components>
@@ -329,4 +329,3 @@
         </library>
     </hal_librarys>
 </aurisys_config>
-

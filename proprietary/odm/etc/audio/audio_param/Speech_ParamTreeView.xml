@@ -149,7 +149,7 @@
 				<Field audio_type="Speech" param="speech_mode_para" name="TX NR Noise Adaption Rate"/>
 			</FieldList>
 			<CategoryPathList>
-				<Category path=""/>
+				<Category path="Handsfree"/>
 			</CategoryPathList>
 		</Feature>
 
@@ -315,6 +315,7 @@
 				<Field audio_type="SpeechDMNR" param="dmnr_para" name="VAD Adaptive hysteresis"/>
 				<Field audio_type="SpeechDMNR" param="dmnr_para" name="VAD Power Ratio Scaler Modifier"/>
 				<Field audio_type="SpeechDMNR" param="dmnr_para" name="VAD Band0p5 Power Ratio Scaler Modifier"/>
+				<Field audio_type="SpeechDMNR" param="dmnr_para" name="SNRI Expander switch"/>
 				<Field audio_type="SpeechDMNR" param="dmnr_para" name="SNRI Expander Gain LB"/>
 				<Field audio_type="SpeechDMNR" param="dmnr_para" name="SNRI Expander Gain Under-estimation"/>
 				<Field audio_type="SpeechDMNR" param="dmnr_para" name="SNRI Expander Triggered THD"/>
@@ -410,11 +411,8 @@
 				<Field audio_type="Speech" param="speech_mode_para" name="RX expander mode"/>
 				<Field audio_type="Speech" param="speech_mode_para" name="DL Limiter TH"/>
 				<Field audio_type="Speech" param="speech_mode_para" name="DL expander suppression gain"/>
-				<Field audio_type="Speech" param="speech_mode_para" name="CC mode"/>
 				<Field audio_type="Speech" param="speech_mode_para" name="RMS power limiter thd"/>
 				<Field audio_type="Speech" param="speech_mode_para" name="20ms delay"/>
-				<Field audio_type="Speech" param="speech_mode_para" name="CC/VCE switch"/>
-				<Field audio_type="Speech" param="speech_mode_para" name="Hard clipping"/>
 				<Field audio_type="Speech" param="speech_mode_para" name="LPF"/>
 				<Field audio_type="Speech" param="speech_mode_para" name="RX HP filter cutoff freq (IIR)"/>
 				<Field audio_type="Speech" param="speech_mode_para" name="RX IIR switch"/>
