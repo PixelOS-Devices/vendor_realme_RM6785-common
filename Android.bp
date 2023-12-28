@@ -6,38 +6,6 @@ soong_namespace {
 }
 
 cc_prebuilt_library_shared {
-	name: "libaptXHD_encoder",
-	owner: "realme",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/lib64/libaptXHD_encoder.so"],
-		},
-	},
-	compile_multilib: "64",
-	check_elf_files: false,
-	prefer: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libaptX_encoder",
-	owner: "realme",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/lib64/libaptX_encoder.so"],
-		},
-	},
-	compile_multilib: "64",
-	check_elf_files: false,
-	prefer: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "arm.graphics-V1-ndk_platform",
 	owner: "realme",
 	strip: {
@@ -2293,6 +2261,26 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+	name: "vendor.mediatek.hardware.bluetooth.audio@2.2",
+	owner: "realme",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/vendor.mediatek.hardware.bluetooth.audio@2.2.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/vendor.mediatek.hardware.bluetooth.audio@2.2.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
 	name: "vendor.mediatek.hardware.gpu@1.0",
 	owner: "realme",
 	strip: {
@@ -3539,14 +3527,14 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "android.hardware.bluetooth@1.0-impl-mediatek",
+	name: "android.hardware.bluetooth@1.1-impl-mediatek",
 	owner: "realme",
 	strip: {
 		none: true,
 	},
 	target: {
 		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-mediatek.so"],
+			srcs: ["proprietary/vendor/lib64/hw/android.hardware.bluetooth@1.1-impl-mediatek.so"],
 		},
 	},
 	compile_multilib: "64",
@@ -3709,6 +3697,24 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/hw/vendor.mediatek.hardware.bluetooth.audio@2.1-impl.so"],
+		},
+	},
+	compile_multilib: "64",
+	check_elf_files: false,
+	relative_install_path: "hw",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "vendor.mediatek.hardware.bluetooth.audio@2.2-impl",
+	owner: "realme",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/hw/vendor.mediatek.hardware.bluetooth.audio@2.2-impl.so"],
 		},
 	},
 	compile_multilib: "64",
@@ -15645,9 +15651,9 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-	name: "android.hardware.bluetooth@1.0-service-mediatek",
+	name: "android.hardware.bluetooth@1.1-service-mediatek",
 	owner: "realme",
-	srcs: ["proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service-mediatek"],
+	srcs: ["proprietary/vendor/bin/hw/android.hardware.bluetooth@1.1-service-mediatek"],
 	check_elf_files: false,
 	strip: {
 		none: true,
