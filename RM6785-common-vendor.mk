@@ -487,7 +487,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RM6785-common/proprietary/vendor/etc/ecc_list_OP18.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP18.xml \
     vendor/realme/RM6785-common/proprietary/vendor/etc/ecc_list_OP20.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP20.xml \
     vendor/realme/RM6785-common/proprietary/vendor/etc/ecc_list_preference.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_preference.xml \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/factory.ini:$(TARGET_COPY_OUT_VENDOR)/etc/factory.ini \
     vendor/realme/RM6785-common/proprietary/vendor/etc/file112.wav:$(TARGET_COPY_OUT_VENDOR)/etc/file112.wav \
     vendor/realme/RM6785-common/proprietary/vendor/etc/gnss/agps_profiles_conf2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/agps_profiles_conf2.xml \
     vendor/realme/RM6785-common/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_ATnT_Mexico.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_ATnT_Mexico.xml \
@@ -810,8 +809,11 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.mms@1.5-impl \
     vendor.mediatek.hardware.nvram@1.1-impl \
     vendor.mediatek.hardware.pq@2.6-impl \
+    libJpgEncPipe \
     libOpenCL \
     libTEECommon \
+    libaal_mtk \
+    libaalservice \
     libaedv \
     libbwc \
     libcapctrl \
@@ -838,6 +840,8 @@ PRODUCT_PACKAGES += \
     libion_mtk \
     libion_ulit \
     libipsec_ims_shr \
+    libjpeg-alpha-oal_vendor \
+    libjpeg-alpha_vendor \
     libladder \
     libmtcloader \
     libmtk_drvb \
@@ -866,6 +870,7 @@ PRODUCT_PACKAGES += \
     libverno \
     libvpu \
     libwo \
+    vendor.mediatek.hardware.audio@6.1 \
     vendor.mediatek.hardware.bluetooth.audio@2.1 \
     vendor.mediatek.hardware.gpu@1.0 \
     vendor.mediatek.hardware.keyinstall@1.0 \
@@ -971,7 +976,6 @@ PRODUCT_PACKAGES += \
     libvt_custom \
     libwvhidl \
     libwvdrmengine \
-    vendor.mediatek.hardware.audio@6.1 \
     vendor.mediatek.hardware.mtkcodecservice@1.1 \
     APUWareUtilsServer \
     APUWareXrpServer \
@@ -1369,7 +1373,6 @@ PRODUCT_PACKAGES += \
     libCamera_sarterqtechmains5kgm1sp_portrait_preview_full \
     libFaceBeautyCap \
     libFaceBeautyPre \
-    libJpgEncPipe \
     libMcClient \
     libPerfectlyClearCrux \
     libPolarrRender \
@@ -1388,8 +1391,6 @@ PRODUCT_PACKAGES += \
     lib_bsscore \
     libaal_cust \
     libaal_key \
-    libaal_mtk \
-    libaalservice \
     libakm \
     libapusys \
     libarcsoft_distortion_correction \
@@ -1481,8 +1482,6 @@ PRODUCT_PACKAGES += \
     libimageio \
     libimageio_plat_drv \
     libimageio_plat_pipe \
-    libjpeg-alpha-oal_vendor \
-    libjpeg-alpha_vendor \
     libkmsetkey \
     libksensor \
     liblpcnr \
@@ -1630,7 +1629,7 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.power@1.1 \
     vendor.mediatek.hardware.power@2.0 \
     vendor.mediatek.hardware.pplagent@1.0 \
-    vendor.mediatek.hardware.videotelephony@1.0 \
+    vendor.mediatek.hardware.videotelephony@1.0_vendor \
     vendor.trustonic.tee.tui@1.0 \
     vendor.trustonic.tee@1.0 \
     vendor.trustonic.tee@1.1 \
@@ -1649,13 +1648,13 @@ PRODUCT_PACKAGES += \
     libvcodec_capenc \
     libvt_avsync \
     vendor.mediatek.hardware.videotelephony-V1-ndk \
-    vendor.mediatek.hardware.videotelephony@1.0.system_ext \
+    vendor.mediatek.hardware.videotelephony@1.0 \
     liboemcrypto \
     libormshalclient \
     libpnscr2 \
     sensors.virtual \
     vendor.oplus.hardware.appradio@1.0 \
-    vendor.oplus.hardware.biometrics.fingerprint@2.1.odm \
+    vendor.oplus.hardware.biometrics.fingerprint@2.1_odm \
     vendor.oplus.hardware.biometrics.fingerprintservice@1.0 \
     vendor.oplus.hardware.commondcs@1.0 \
     vendor.oplus.hardware.orms@1.0 \
@@ -1673,13 +1672,13 @@ PRODUCT_PACKAGES += \
     mediatek-telephony-base \
     mediatek-telephony-common \
     com.android.hotwordenrollment.common.util \
-    android.hardware.gpu@1.0-service \
-    android.hardware.neuralnetworks@1.3-service-mtk-dsp-gpu \
-    manifest \
-    manifest_android.hardware.drm@1.3-service.widevine \
-    oplus_appradio_device_manifest \
-    oplus_radio_device_manifest \
-    vendor.mediatek.hardware.dplanner@2.0-service \
+    android.hardware.gpu@1.0-service.xml \
+    android.hardware.neuralnetworks@1.3-service-mtk-dsp-gpu.xml \
+    manifest.xml \
+    manifest_android.hardware.drm@1.3-service.widevine.xml \
+    oplus_appradio_device_manifest.xml \
+    oplus_radio_device_manifest.xml \
+    vendor.mediatek.hardware.dplanner@2.0-service.xml \
     atcid \
     audiocmdservice_atci \
     autobt \
@@ -1695,7 +1694,6 @@ PRODUCT_PACKAGES += \
     dtc_vendor \
     em_hidl \
     epdg_wod \
-    factory \
     fuelgauged \
     fuelgauged_nvram \
     gsm0710muxd \
