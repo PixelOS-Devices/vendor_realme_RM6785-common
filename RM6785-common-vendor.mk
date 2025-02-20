@@ -505,7 +505,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RM6785-common/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Verizon_Wireless.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_Verizon_Wireless.xml \
     vendor/realme/RM6785-common/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Vodafone.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_Vodafone.xml \
     vendor/realme/RM6785-common/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-mediatek.rc \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.3-service.widevine.rc \
+    vendor/realme/RM6785-common/proprietary/vendor/etc/init/android.hardware.drm@1.4-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.4-service.widevine.rc \
     vendor/realme/RM6785-common/proprietary/vendor/etc/init/android.hardware.gnss@2.1-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss@2.1-service-mediatek.rc \
     vendor/realme/RM6785-common/proprietary/vendor/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc \
     vendor/realme/RM6785-common/proprietary/vendor/etc/init/android.hardware.keymaster@4.0-service.trustonic.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@4.0-service.trustonic.rc \
@@ -957,7 +957,6 @@ PRODUCT_PACKAGES += \
     libstorage_otp \
     libthermalalgo \
     libthha \
-    libtlcWidevineModularDrm \
     libvc1dec_sa.ca7 \
     libvcodec_oal \
     libvcodec_utility \
@@ -974,8 +973,6 @@ PRODUCT_PACKAGES += \
     libvp9dec_sa.ca7 \
     libvpud_vcodec \
     libvt_custom \
-    libwvhidl \
-    libwvdrmengine \
     vendor.mediatek.hardware.mtkcodecservice@1.1 \
     APUWareUtilsServer \
     APUWareXrpServer \
@@ -1581,9 +1578,12 @@ PRODUCT_PACKAGES += \
     libstface_fd_api \
     libtflite_mtk \
     libtflite_mtk_static_R \
+    libtlcWidevineModularDrm \
     libudf \
     libwifi-hal-mtk \
     libwifitest \
+    libwvhidl \
+    libwvdrmengine \
     libmtkcam_streaminfo_plugin-p1stt \
     ov02b10_mipi_raw_IdxMgr \
     ov02b10_mipi_raw_tuning \
@@ -1675,7 +1675,7 @@ PRODUCT_PACKAGES += \
     android.hardware.gpu@1.0-service.xml \
     android.hardware.neuralnetworks@1.3-service-mtk-dsp-gpu.xml \
     manifest.xml \
-    manifest_android.hardware.drm@1.3-service.widevine.xml \
+    manifest_android.hardware.drm@1.4-service.widevine.xml \
     oplus_appradio_device_manifest.xml \
     oplus_radio_device_manifest.xml \
     vendor.mediatek.hardware.dplanner@2.0-service.xml \
@@ -1698,7 +1698,7 @@ PRODUCT_PACKAGES += \
     fuelgauged_nvram \
     gsm0710muxd \
     android.hardware.bluetooth@1.0-service-mediatek \
-    android.hardware.drm@1.3-service.widevine \
+    android.hardware.drm@1.4-service.widevine \
     android.hardware.gnss@2.1-service-mediatek \
     android.hardware.graphics.allocator@4.0-service-mediatek \
     android.hardware.keymaster@4.0-service.trustonic \
